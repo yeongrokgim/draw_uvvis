@@ -12,14 +12,14 @@ An UV-VIS spectra can be drawn from:
 
 2. Oscillation strength
 
-both can be obtained from TD-DFT (or other excited state) calculations.
+both can be obtained from TD-DFT (or any other excited state) calculations.
 
 ***NOTE:***
-    Gaussian (or Lorentzian) brodens in energy, not wavelength.
+    Gaussian (or Lorentzian) brodens in *`energy`*, not *`wavelength`*.
 
 ## Physical constants and a conversion factor
 
-To convert wavelength(nm) to energy(eV), derive from fundamental physical constants. Each constants can be obtained from NIST.[^1]
+To convert wavelength(nm) to energy(eV), derive from fundamental physical constants. Each constants can be obtained from NIST.<sup>[ref.](##References)1</sup>
 
 ```python
 c = 299792458           # speed of light in vacuum m/s;
@@ -37,4 +37,4 @@ ev2nm = 1239.841973964072/ev
 
 ## References
 
-- [1]: https://physics.nist.gov/cuu/Constants/
+1. https://physics.nist.gov/cuu/Constants/
